@@ -8239,8 +8239,20 @@ h3 {
 }
 
 .redondo {
-  border-radius: 20%;
-  border-top-right-radius: 10%;
+  border-radius: 5rem;
+}
+
+.padines {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.redondoleft {
+  border-radius: 5rem;
+}
+
+.redondoright {
+  border-radius: 5rem;
 }
 
 .logo {
@@ -8251,6 +8263,10 @@ h3 {
   width: 125px;
   padding: 100px;
   text-align: center;
+}
+
+.colorfondo {
+  background-color: #E6E7E7;
 }
 
 .alineado {
@@ -8269,6 +8285,18 @@ h3 {
 .titulo {
   text-align: left;
   margin: 35px;
+}
+
+.elignright {
+  text-align: right;
+}
+
+.elignleftt {
+  text-align: left;
+}
+
+.elignjustify {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
