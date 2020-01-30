@@ -1,40 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i|Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Barber Blog</title>
 </head>
-<head>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="assets/img/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+
+<!-- Inicia barra de menu  -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <!-- Sección logo -->
+          <a class="navbar-brand" href="index.html"> <img src="assets/img/logo.png" alt="Barber blog logo" class="logo"> </a>
+          <!-- Fin seccion de logo -->
+
+          <!-- botón para movil para collapse del menú -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Fin botón movil para collapse del menú -->
+  
+          <!-- Sección menu linkeable -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jobs">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hours">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Fin sección menu linkeable -->
+
         </div>
       </nav>
-</head>
+</header>
+
+<!-- Fin Barra menu  -->
+
 <body>
 
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/img/post-image.jpg" alt="First slide">
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h2>
+      12 de Abril de 2018
+    </h2>
+  </div>
+
+  <div class="row col-lg-12">
+    <section>
+      <article class="cuepornews">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem sunt voluptatum eius earum facilis quisquam. 
+          Iure non, ipsum sequi, placeat dolore explicabo quidem, laborum iusto reprehenderit eveniet neque dolores doloremque?</p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+           content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+           as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various 
+           versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature 
+          from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+          looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the 
+          word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+           of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise 
+           on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", 
+           comes from a line in section 1.10.32.
+
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 
+          1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original 
+          form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis augue at mauris tincidunt ornare. 
+          Proin viverra tristique porttitor. Donec imperdiet tristique sodales. Phasellus ornare odio turpis, eu 
+          fringilla justo porta non. Ut sollicitudin, enim at vehicula commodo, quam ante condimentum velit, in 
+          fringilla sapien tortor tempor nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent 
+          ac diam id arcu consequat venenatis. Etiam ut massa in magna commodo lacinia. Cras tempor nisl at scelerisque
+           blandit. Nunc eu sagittis lectus, at bibendum libero. Cras tristique nec ligula sit amet porttitor. Donec eros
+            tortor, ultricies vitae risus quis, elementum lobortis sem. Duis ut nulla velit.
+
+          Etiam laoreet tellus et eros maximus, sed pulvinar lacus porta. Donec at sem laoreet, placerat ipsum eleifend, 
+          dictum purus. Curabitur faucibus nec augue in accumsan. Nam blandit vehicula erat ut ultricies. Class aptent 
+          taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vel mauris feugiat, 
+          imperdiet libero at, faucibus dolor. Nulla facilisi. Etiam blandit ultrices ligula, eu ultricies odio. 
+          Nam ac congue dui, sed ultrices tellus. Sed imperdiet enim sed quam dignissim, vel sollicitudin justo 
+          hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+          Proin sit amet faucibus.</p>
+      </article>
+    </section>
+  </div>
+
+  <div class="alineado titulo">
+    <button type="button" class="btn btn-secondary redondo">Compartir</button>
+    <button type="button" class="btn btn-secondary redondo">Comentar en twitter</button>
+  </div>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Anterior</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Siguiente</a>
+      </li>
+    </ul>
+  </nav>
+ 
+    <footer class="bg bg-dark text-center">
+        <!-- Sección logo -->
+        <a href="index.html"> <img src="assets/img/logo.png" alt="Barber blog logo"> </a>
+        <!-- Fin seccion de logo -->
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>
