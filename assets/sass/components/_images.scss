@@ -2,6 +2,24 @@
     width: 125px;
 }
 
+.colorfondo{
+    background-color: $platinum;
+}
+
+.hero-section{
+    text-align: center;
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+    text-shadow: 0.125em 0.25em 0.125em $nickel;
+    padding: 25.125rem 4.125rem; /* Aqui hay propiedades para padding en varios lados */
+    padding-top: 35.125rem;
+    font-style: italic;
+    //background-position-y: 70px;
+   /*  margin-left: 23%;
+    margin-right: 23%; */
+}
 
 .logocenter{
     width: 125px;
@@ -9,6 +27,10 @@
     text-align: center;
 }
 
-.colorfondo{
-    background-color: $platinum;
-}
+
+@media (max-width: 320px) {
+    .textoq576{
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+    }
+  }
