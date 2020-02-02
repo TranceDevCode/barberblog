@@ -8240,17 +8240,9 @@ h3 {
 
 .textoslider {
   font-family: "Playfair Display", serif;
-  font-size: 70px;
+  font-size: 120px;
 }
 
-/* .textoq576{
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-} */
-/* nav ul li a{
-    text-align: center;
-}
- */
 .alineado {
   display: inline-block;
 }
@@ -8269,6 +8261,10 @@ h3 {
   margin: 35px;
 }
 
+.margentop {
+  margin-top: 100px;
+}
+
 .elignright {
   text-align: right;
 }
@@ -8283,7 +8279,23 @@ h3 {
   text-align: justify;
 }
 
-.btn {
+.naomitext {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.naomicolor {
+  color: #D76C69;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -15px; */
+  margin-left: -15px;
+}
+
+.boton {
   background: #6C6E70;
 }
 
@@ -8298,11 +8310,18 @@ h3 {
 }
 
 .redondoleft {
-  border-start-start-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  border-top-left-radius: 5rem;
 }
 
 .redondoright {
-  border-radius: 5rem;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.altobotones {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .logo {
@@ -8318,11 +8337,12 @@ h3 {
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   text-shadow: 0.125em 0.25em 0.125em #6C6E70;
-  padding: 25.125rem 4.125rem;
+  padding: 13.125rem 4.125rem;
   /* Aqui hay propiedades para padding en varios lados */
-  padding-top: 35.125rem;
+  padding-top: 25.125rem;
   font-style: italic;
   /*  margin-left: 23%;
    margin-right: 23%; */
@@ -8334,12 +8354,26 @@ h3 {
   text-align: center;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .textoq576 {
     font-family: "Playfair Display", serif;
-    font-size: 15px;
+    font-size: 50px;
+  }
+
+  .imagencenter {
+    text-align: center;
+  }
+
+  .centertext {
+    text-align: center;
   }
 }
+footer a img {
+  width: 125px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 @media (max-width: 576px) {
   nav ul li a {
     text-align: center;

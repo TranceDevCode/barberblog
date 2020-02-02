@@ -11,10 +11,11 @@
     background-image: url('../img/post-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: $white;
     text-shadow: 0.125em 0.25em 0.125em $nickel;
-    padding: 25.125rem 4.125rem; /* Aqui hay propiedades para padding en varios lados */
-    padding-top: 35.125rem;
+    padding: 13.125rem 4.125rem; /* Aqui hay propiedades para padding en varios lados */
+    padding-top: 25.125rem;
     font-style: italic;
     //background-position-y: 70px;
    /*  margin-left: 23%;
@@ -28,9 +29,22 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
     .textoq576{
         font-family: 'Playfair Display', serif;
-        font-size: 15px;
+        font-size: 50px;
     }
-  }
+    .imagencenter{
+        text-align: center;
+    }
+    .centertext{
+        text-align: center;
+    }
+    
+}
+
+footer a img{
+    width: 125px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

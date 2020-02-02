@@ -4,18 +4,9 @@
 
 .textoslider{
     font-family: 'Playfair Display', serif;
-    font-size: 70px;
+    font-size: 120px;
 }
 
-/* .textoq576{
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-} */
-
-/* nav ul li a{
-    text-align: center;
-}
- */
 .alineado{
     display: inline-block;
 }
@@ -27,11 +18,16 @@
 .cuerponews{
     text-align: justify;
     margin: 60px;
+    
 }
 
 .titulo{
     text-align: left;   
     margin: 35px;
+}
+
+.margentop{
+    margin-top: 100px;
 }
 
 .elignright{
@@ -48,4 +44,11 @@
     text-align: justify;
 }
 
+.naomitext{
+    font-style: italic;
+    font-weight: 700;;
+}
 
+.naomicolor{
+    color: $ruddypink;
+}
